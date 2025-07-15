@@ -55,6 +55,15 @@ Welcome to the **Car Rental Management System** project! This C++ application al
 ---
 
 ## Text Files Used
+## 📁 Project Structure
+
+car_rental.cpp // Main C++ source file
+README.md // Project documentation
+welcome.txt // Welcome screen message
+thanks.txt // Thank-you message
+Toyota.txt // Toyota car specs
+Hyundai.txt // Hyundai car specs
+Ford.txt // Ford car specs
 
 ### `welcome.txt`
 Contains the welcome message displayed when the program starts.
@@ -144,10 +153,17 @@ Max. power, battery    935 hp 175 kW        802 hp 225 kW
    ```
 
 ---
+## 🧾 Sample Invoice Output
 
-## Future Enhancements
-- Add more car models with detailed specifications.
-- Implement a graphical user interface (GUI) for better user experience.
-- Add a database to store and retrieve customer records.
-- Include payment gateway integration for online transactions.
+Customer Name: Hamza Yaseen
+Car Model: Ford 2020
+Days Rented: 3
+Total Fee: $525
 
+## 🤝 Contributing
+
+1. Fork this repository.
+2. Create a new branch: `git checkout -b feature/my-feature`.
+3. Make your changes and commit: `git commit -m 'Add new feature'`.
+4. Push to the branch: `git push origin feature/my-feature`.
+5. Open a Pull Request.
